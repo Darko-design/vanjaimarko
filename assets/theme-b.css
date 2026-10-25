@@ -1,0 +1,42 @@
+body.v-b{
+  --bg:#0D1A26; --panel:#132331; --panel2:#0A151F; --field:#0F1D2A;
+  --line:#22374A; --line2:#1B2D3D; --ink:#F1F5F8; --soft:#DCE5EC;
+  --mut:#A9B8C5; --dim:#8D9EAC; --acc:#4BA0E0; --accsoft:rgba(75,160,224,.14);
+  --stripe:repeating-linear-gradient(135deg,#142534 0px,#142534 10px,#102030 10px,#102030 20px);
+  --stripe2:repeating-linear-gradient(45deg,#17304A 0px,#17304A 10px,#132840 10px,#132840 20px);
+}
+.v-b ::placeholder{color:#6F8191}
+.v-b .hd{background:rgba(13,26,38,.92)}
+.v-b .logo span{background:var(--yel);color:#0D1A26}
+.v-b .btn{background:var(--yel);border-color:var(--yel);color:#0D1A26}
+.v-b .btn:hover{color:#0D1A26}
+.v-b .btn--ghost{background:transparent;border-color:#2E4559;color:var(--ink)}
+.v-b .btn--ghost:hover{border-color:var(--acc);color:var(--ink)}
+.v-b .sec--blue{background:#0F2436;border-bottom-color:var(--line2)}
+.v-b .sec--blue .lead{color:#C3D3E0}
+.v-b .sec--blue .btn--ghost{border-color:#3A5670}
+.v-b .sec--blue .btn--ghost.btn--ink{border-color:#2E4559;color:var(--ink)}
+.v-b .glow{background:radial-gradient(circle,rgba(75,160,224,.22) 0%,rgba(75,160,224,0) 62%)}
+.v-b .sec--yel .eyebrow,.v-b .sec--yel .h2{color:#0D1A26}
+.v-b .svc{border-color:transparent}
+.v-b .ph i,.v-b .ph svg{color:#3B5266}
+.v-b .ph--yel i,.v-b .ph--yel svg,.v-b .ph--yel span{color:#0D1A26}
+.v-b .ph--red i,.v-b .ph--red svg,.v-b .ph--red span{color:#fff}
+.v-b .cmp__after .ph i,.v-b .cmp__after .ph svg{color:#4F7397}
+.v-b .tag--pre{background:#0D1A26;color:#fff}
+.v-b .cmp__knob{color:#0D1A26}
+.v-b .tab.on u{background:var(--panel2)}
+.v-b .msg{box-shadow:none}
+.v-b .msg__bd{background:#0F1D2A}
+.v-b .bub{background:#1A2C3D;border-color:#23384B;color:var(--soft)}
+.v-b .form{box-shadow:0 24px 60px rgba(0,0,0,.35)}
+.v-b .form__r{background:#0F1D2A}
+.v-b .opt.on{background:var(--yel);border-color:var(--yel);color:#0D1A26}
+.v-b .opt:hover{border-color:#3A5670}
+.v-b .tab:hover{border-color:#3A5670}
+.v-b .done__i{background:var(--yel);color:#0D1A26}
+.v-b .menu .btn svg{color:#0D1A26}
+.v-b .menu .btn--ghost{border-bottom:1px solid #2E4559}
+.v-b .menu .btn--ghost svg{color:var(--acc)}
+.v-b .marq{background:var(--panel2)}
+.v-b .ft{background:#08121B}
